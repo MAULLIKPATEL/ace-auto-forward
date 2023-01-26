@@ -12,7 +12,7 @@ import time
 import os
 
 
-@ACE.on_message(
+@Client.on_message(
     filters.chat(AUTH_USERS) & filters.private &
     filters.incoming & filters.command("ace", prefixes=prefixes)
 )
