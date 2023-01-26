@@ -4,7 +4,7 @@
 
 
 from pyrogram import filters
-from pyrogram import Client as ACE
+from pyrogram import Client as ace
 from pyrogram.types import Message
 from main import LOGGER, prefixes, AUTH_USERS
 from config import Config
@@ -12,7 +12,7 @@ import time
 import os
 
 
-@Client.on_message(
+@ace.on_message(
     filters.chat(AUTH_USERS) & filters.private &
     filters.incoming & filters.command("ace", prefixes=prefixes)
 )
