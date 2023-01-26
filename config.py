@@ -6,9 +6,9 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5302267659:AAEM6afCuKDOalK9qryWrSoDYr7BiOxdAm0")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5915526534:AAGUtVAU89AXPnJF-zrkCTShzxzevpBCJLs")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", "15823382"))
-    API_HASH = os.environ.get("API_HASH", "016d5e115a06ddfb6121823d72ae4d8c")
-    AUTH_USERS = os.environ.get("OWNER", "1291288382,1296213694,5104293442,5201973365")
+    API_ID = int(os.environ.get("API_ID", "14517587"))
+    API_HASH = os.environ.get("API_HASH", "c51ecd079bd1229b9cc6e26cbbb60d93")
+    AUTH_USERS = os.environ.get("OWNER", "5989158216,5472986881,5715553928,5104293442")
 
